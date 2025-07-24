@@ -5,7 +5,11 @@ const Footer = () => {
   return (
     <div className='flex items-center justify-between gap-4 px-4 lg:px-44 py-3'>
       <img width={150} src={assets.logo} alt="" />
+<<<<<<< HEAD
       <p className='flex-1 border-l border-gray-400 pl-4 text-sm text-gray-500 max-sm:hidden'>Copyright @BG Removal | All right reserved.</p>
+=======
+      <p className='flex-1 border-l border-gray-400 pl-4 text-sm text-gray-500 max-sm:hidden'>Copyright @BG-Removal | All right reserved.</p>
+>>>>>>> 766242e1ef0b7aa7d161d53f19926f3d6f3c1ab1
       <div className='flex gap-1'>
         <img width={40} src={assets.facebook_icon} alt="" />
         <img width={40} src={assets.twitter_icon} alt="" />
