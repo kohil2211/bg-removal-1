@@ -87,7 +87,7 @@ const BuyCredit = () => {
             <p className='mt-3 font-semibold'>{item.id}</p>
             <p className='text-sm'>{item.desc}</p>
             <p className='my-6'>
-              <span className='tex3xl font-medium'>₹{item.price} </span>/ {item.credits} credits
+              <span className='tex3xl font-medium'>₹{item.price} </span>/ {item.credits} Credits
             </p>
             <div className='flex flex-col'>
               <button onClick={() => paymentRazorpay(item.id)} className='w-full flex justify-center gap-2 border border-gray-400 mt-2 text-sm rounded-md py-2.5 min-w-52 hover:bg-blue-50 hover:border-blue-400'>
